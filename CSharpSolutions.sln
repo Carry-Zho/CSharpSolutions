@@ -25,8 +25,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enumerable.Sum", "CSharpEss
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enumerable.DistinctBy", "CSharpEssential\Enumerable.DistinctBy\Enumerable.DistinctBy.csproj", "{FACEACCA-6C86-401D-AC05-077615F47652}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enumerable.Append", "Enumerable.Append\Enumerable.Append.csproj", "{EACD6EF5-73A7-42E4-BF3A-85462DD0F2B5}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,10 +71,6 @@ Global
 		{FACEACCA-6C86-401D-AC05-077615F47652}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FACEACCA-6C86-401D-AC05-077615F47652}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FACEACCA-6C86-401D-AC05-077615F47652}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EACD6EF5-73A7-42E4-BF3A-85462DD0F2B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EACD6EF5-73A7-42E4-BF3A-85462DD0F2B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EACD6EF5-73A7-42E4-BF3A-85462DD0F2B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EACD6EF5-73A7-42E4-BF3A-85462DD0F2B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -92,6 +86,5 @@ Global
 		{B2AEE5CA-13D6-455F-9A5D-839E78B17DC6} = {5D3F7972-C482-4906-A06D-B5F6E6308118}
 		{940FC00A-78FD-4A9F-9DF6-161D3B8DF04F} = {5D3F7972-C482-4906-A06D-B5F6E6308118}
 		{FACEACCA-6C86-401D-AC05-077615F47652} = {5D3F7972-C482-4906-A06D-B5F6E6308118}
-		{EACD6EF5-73A7-42E4-BF3A-85462DD0F2B5} = {5D3F7972-C482-4906-A06D-B5F6E6308118}
 	EndGlobalSection
 EndGlobal
