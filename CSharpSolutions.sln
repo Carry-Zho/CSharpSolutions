@@ -27,6 +27,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enumerable.DistinctBy", "CS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enumerable.Where", "CSharpEssential\Enumerable.Where\Enumerable.Where.csproj", "{0334F533-9AEF-47CE-B5AB-E6D0FDBAA8BF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MiniExcel", "MiniExcel", "{5C268757-C28D-4B3D-BC42-1D7440BD49F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniExcel.Test", "MiniExcel\MiniExcel.Test\MiniExcel.Test.csproj", "{4E334531-27D1-4450-8CC4-351C539D51A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,6 +81,10 @@ Global
 		{0334F533-9AEF-47CE-B5AB-E6D0FDBAA8BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0334F533-9AEF-47CE-B5AB-E6D0FDBAA8BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0334F533-9AEF-47CE-B5AB-E6D0FDBAA8BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E334531-27D1-4450-8CC4-351C539D51A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E334531-27D1-4450-8CC4-351C539D51A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E334531-27D1-4450-8CC4-351C539D51A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E334531-27D1-4450-8CC4-351C539D51A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -93,5 +101,6 @@ Global
 		{940FC00A-78FD-4A9F-9DF6-161D3B8DF04F} = {5D3F7972-C482-4906-A06D-B5F6E6308118}
 		{FACEACCA-6C86-401D-AC05-077615F47652} = {5D3F7972-C482-4906-A06D-B5F6E6308118}
 		{0334F533-9AEF-47CE-B5AB-E6D0FDBAA8BF} = {5D3F7972-C482-4906-A06D-B5F6E6308118}
+		{4E334531-27D1-4450-8CC4-351C539D51A6} = {5C268757-C28D-4B3D-BC42-1D7440BD49F5}
 	EndGlobalSection
 EndGlobal
