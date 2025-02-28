@@ -1,4 +1,4 @@
-﻿namespace MiniExcel.Test
+﻿namespace Test
 {
     internal class Program
     {
