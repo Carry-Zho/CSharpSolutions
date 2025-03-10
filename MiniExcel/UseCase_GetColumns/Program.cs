@@ -1,4 +1,4 @@
-﻿namespace Test
+﻿namespace UseCase_GetColumns
 {
     internal class Program
     {
