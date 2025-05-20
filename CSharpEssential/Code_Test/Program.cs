@@ -1,11 +1,10 @@
-﻿namespace Code_Test
+﻿namespace Code_Test;
+class Program
 {
-    internal class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            (string Name, int Age) 长三 = ("Changsan",21);
-            (string Name, int Age)[] people = { ("Changsan", 21), ("Lisi", 28) };
-        }
+        string x = "a";
+        string y = "b";
+        Console.WriteLine(y.CompareTo(x));
     }
 }
