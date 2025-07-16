@@ -16,7 +16,7 @@
 
             Console.WriteLine($"字典中有几个键值对:{contactDic.Keys.Count}个");
             Console.WriteLine($"键c1的值:{contactDic[c1]}");
-            Console.WriteLine($"键c1的值:{contactDic[c2]}");
+            Console.WriteLine($"键c2的值:{contactDic[c2]}");
 
         }
     }

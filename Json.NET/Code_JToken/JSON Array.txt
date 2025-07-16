@@ -1,0 +1,19 @@
+﻿[
+  "Joy",
+  30,
+  40,
+  50,
+  {
+    "Street": "123 Main St"
+  },
+ {
+    "Street": "345 Main St"
+  },
+  [
+    "Reading"
+  ],
+ [
+    "Traveling",
+    "Cooking"
+  ]
+]

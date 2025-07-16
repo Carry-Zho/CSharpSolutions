@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Joy",
+  "Age": 30,
+  "Address": {
+    "Street": "123 Main St",
+    "City": "Springfield",
+    "State": "IL"
+  },
+  "Hobbies": [
+    "Reading",
+    "Traveling",
+    "Cooking"
+  ]
+}
