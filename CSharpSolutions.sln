@@ -151,6 +151,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Code_JContainer", "Json.NET
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Code_DescendantsAndSelf", "Json.NET\Code_DescendantsAndSelf\Code_DescendantsAndSelf.csproj", "{F75D2A21-17E1-4D20-9DAA-9D9DBB2089C8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Code_JObject", "Json.NET\Code_JObject\Code_JObject.csproj", "{0F443284-AF14-4717-880D-C75FFA98EECB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -441,6 +443,10 @@ Global
 		{F75D2A21-17E1-4D20-9DAA-9D9DBB2089C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F75D2A21-17E1-4D20-9DAA-9D9DBB2089C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F75D2A21-17E1-4D20-9DAA-9D9DBB2089C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F443284-AF14-4717-880D-C75FFA98EECB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F443284-AF14-4717-880D-C75FFA98EECB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F443284-AF14-4717-880D-C75FFA98EECB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F443284-AF14-4717-880D-C75FFA98EECB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -517,5 +523,6 @@ Global
 		{DBB60946-A9C7-4BBB-8B30-6E98A620B7C9} = {D3F384FC-00F0-4BA8-8D5F-E206CFD8ED7A}
 		{A687EAF8-0B71-498A-9EAB-076C8A3945E4} = {D3F384FC-00F0-4BA8-8D5F-E206CFD8ED7A}
 		{F75D2A21-17E1-4D20-9DAA-9D9DBB2089C8} = {D3F384FC-00F0-4BA8-8D5F-E206CFD8ED7A}
+		{0F443284-AF14-4717-880D-C75FFA98EECB} = {D3F384FC-00F0-4BA8-8D5F-E206CFD8ED7A}
 	EndGlobalSection
 EndGlobal
