@@ -1,19 +1,27 @@
 ﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+
 namespace Code_SerializeObject
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            var obj = new { Name = "Jone", Age = 30};
-            Console.WriteLine(obj.GetType());
-            Console.WriteLine($"默认输出：{Environment.NewLine}{JsonConvert.SerializeObject(obj)}");
-
-            var settings = new JsonSerializerSettings
-            {
-                Formatting = Formatting.Indented
+            JObject obj = new() { 
+                ["Name"] = "Jone", 
+                ["Age"] = DateTime.Now 
             };
-            Console.WriteLine($"缩进输出：{Environment.NewLine}{JsonConvert.SerializeObject(obj,settings)}");
+
+            JsonSerializerSettings settings = new JsonSerializerSettings();
+            settings.DateFormatString = "yyyy-MMM-dd";
+            settings.Formatting = Formatting.Indented;
+            
+            Console.WriteLine("默认序列化:");
+            Console.WriteLine(JsonConvert.SerializeObject(obj));
+
+            Console.WriteLine("自定义设定序列化:");
+            Console.WriteLine(JsonConvert.SerializeObject(obj,settings));
+
         }
     }
 }

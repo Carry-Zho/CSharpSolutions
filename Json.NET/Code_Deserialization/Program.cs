@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Converters;
 using Newtonsoft.Json.Linq;
 
 namespace Code_Deserialization
@@ -7,18 +8,24 @@ namespace Code_Deserialization
     {
         static void Main(string[] args)
         {
-            string jsonObject = "{\"Name\":\"John\",\"Age\":30}";
+            string jsonContent = "{\"Name\":\"John\",\"Birthday\":\"2021-11-11\"}";
 
-            //dynamic obj = JsonConvert.DeserializeObject(jsonObject)!;
-            //Console.WriteLine(obj.GetType());
-            //Console.WriteLine($"Name {obj.Name}, Age {obj.Age}")
+            var settings = new JsonSerializerSettings
+            {
+                DateFormatString = "yyyy-MM-dd",
+                Converters = new List<JsonConverter> { new CustomDateTimeConverter() }
+            };
 
-
+            JObject job = JsonConvert.DeserializeObject<JObject>(jsonContent, settings);
+            Console.WriteLine(job);
+            Console.WriteLine(job["Birthday"].Type);
         }
     }
-    public class Person
+    public class CustomDateTimeConverter : IsoDateTimeConverter
     {
-        public required string Name { get; set; }
-        public int Age { get; set; }
+        public CustomDateTimeConverter()
+        {
+            DateTimeFormat = "yyyy-MM-dd";
+        }
     }
 }
