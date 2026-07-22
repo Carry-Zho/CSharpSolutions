@@ -151,7 +151,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Code_Yield", "CSharpEssenti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloSharp", "CSharpEssential\Test\HelloSharp\HelloSharp.csproj", "{32E63727-E3EE-407B-9131-5289CB245965}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console_ValueOrReferenceWhenPassedToMethod", "CSharpEssential\Test\Console_ValueOrReferenceWhenPassedToMethod\Console_ValueOrReferenceWhenPassedToMethod.csproj", "{4F7DD775-0B03-408E-B600-B844CF36993B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console_PassedByValueOrReference", "CSharpEssential\Test\Console_ValueOrReferenceWhenPassedToMethod\Console_PassedByValueOrReference.csproj", "{4F7DD775-0B03-408E-B600-B844CF36993B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
