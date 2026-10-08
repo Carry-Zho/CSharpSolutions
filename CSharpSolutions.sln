@@ -153,6 +153,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloSharp", "CSharpEssenti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console_PassedByValueOrReference", "CSharpEssential\Test\Console_ValueOrReferenceWhenPassedToMethod\Console_PassedByValueOrReference.csproj", "{4F7DD775-0B03-408E-B600-B844CF36993B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interop", "Interop", "{881DD402-2D01-43AA-9973-E13CFB1D536A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interop_PInvoke", "CSharpEssential\Interop\Interop_PInvoke\Interop_PInvoke.csproj", "{0EDF2671-2FCB-4E61-ACE8-C2FA9C275F46}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -431,6 +435,10 @@ Global
 		{4F7DD775-0B03-408E-B600-B844CF36993B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F7DD775-0B03-408E-B600-B844CF36993B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F7DD775-0B03-408E-B600-B844CF36993B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EDF2671-2FCB-4E61-ACE8-C2FA9C275F46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EDF2671-2FCB-4E61-ACE8-C2FA9C275F46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EDF2671-2FCB-4E61-ACE8-C2FA9C275F46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EDF2671-2FCB-4E61-ACE8-C2FA9C275F46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -508,6 +516,8 @@ Global
 		{96100134-A263-0F8B-0F15-FB564D5BE78C} = {7851ADA1-994D-4C71-8325-96C9B0F88122}
 		{32E63727-E3EE-407B-9131-5289CB245965} = {231B6117-9299-4FCF-AC5E-3C3D8999A522}
 		{4F7DD775-0B03-408E-B600-B844CF36993B} = {231B6117-9299-4FCF-AC5E-3C3D8999A522}
+		{881DD402-2D01-43AA-9973-E13CFB1D536A} = {5D3F7972-C482-4906-A06D-B5F6E6308118}
+		{0EDF2671-2FCB-4E61-ACE8-C2FA9C275F46} = {881DD402-2D01-43AA-9973-E13CFB1D536A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5CDAD7D8-E007-4C22-9283-835978ACCBB6}
