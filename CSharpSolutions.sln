@@ -157,6 +157,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interop", "Interop", "{881D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interop_PInvoke", "CSharpEssential\Interop\Interop_PInvoke\Interop_PInvoke.csproj", "{0EDF2671-2FCB-4E61-ACE8-C2FA9C275F46}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interop_Test", "CSharpEssential\Interop\Interop_Test\Interop_Test.csproj", "{14B2458D-5088-43F9-8B75-E135C2CF65B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -439,6 +441,10 @@ Global
 		{0EDF2671-2FCB-4E61-ACE8-C2FA9C275F46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0EDF2671-2FCB-4E61-ACE8-C2FA9C275F46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0EDF2671-2FCB-4E61-ACE8-C2FA9C275F46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14B2458D-5088-43F9-8B75-E135C2CF65B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14B2458D-5088-43F9-8B75-E135C2CF65B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14B2458D-5088-43F9-8B75-E135C2CF65B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14B2458D-5088-43F9-8B75-E135C2CF65B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -518,6 +524,7 @@ Global
 		{4F7DD775-0B03-408E-B600-B844CF36993B} = {231B6117-9299-4FCF-AC5E-3C3D8999A522}
 		{881DD402-2D01-43AA-9973-E13CFB1D536A} = {5D3F7972-C482-4906-A06D-B5F6E6308118}
 		{0EDF2671-2FCB-4E61-ACE8-C2FA9C275F46} = {881DD402-2D01-43AA-9973-E13CFB1D536A}
+		{14B2458D-5088-43F9-8B75-E135C2CF65B1} = {881DD402-2D01-43AA-9973-E13CFB1D536A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5CDAD7D8-E007-4C22-9283-835978ACCBB6}
