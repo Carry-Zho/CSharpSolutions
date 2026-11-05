@@ -171,6 +171,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection_DynamicCall", "C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection_GenericReflection", "CSharpEssential\Reflection\Reflection_GenericReflection\Reflection_GenericReflection.csproj", "{746EE780-16A5-43D2-A13A-5A0B970B9C5F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Generic", "Generic", "{7EB6A010-35FC-491C-B876-314E01A0181B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generic_Test", "CSharpEssential\Generic\Generic_Test\Generic_Test.csproj", "{A89A4126-B109-4735-9B79-31DA3D7C94A9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -477,6 +481,10 @@ Global
 		{746EE780-16A5-43D2-A13A-5A0B970B9C5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{746EE780-16A5-43D2-A13A-5A0B970B9C5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{746EE780-16A5-43D2-A13A-5A0B970B9C5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A89A4126-B109-4735-9B79-31DA3D7C94A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A89A4126-B109-4735-9B79-31DA3D7C94A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A89A4126-B109-4735-9B79-31DA3D7C94A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A89A4126-B109-4735-9B79-31DA3D7C94A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -563,6 +571,8 @@ Global
 		{F2FAD73B-80CB-47B5-B278-73DF157433F9} = {0133BD2B-21EE-491F-B8C0-973ACF4B3FA9}
 		{E781B125-6837-4BE8-B036-99CE9DDC40F4} = {0133BD2B-21EE-491F-B8C0-973ACF4B3FA9}
 		{746EE780-16A5-43D2-A13A-5A0B970B9C5F} = {0133BD2B-21EE-491F-B8C0-973ACF4B3FA9}
+		{7EB6A010-35FC-491C-B876-314E01A0181B} = {5D3F7972-C482-4906-A06D-B5F6E6308118}
+		{A89A4126-B109-4735-9B79-31DA3D7C94A9} = {7EB6A010-35FC-491C-B876-314E01A0181B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5CDAD7D8-E007-4C22-9283-835978ACCBB6}

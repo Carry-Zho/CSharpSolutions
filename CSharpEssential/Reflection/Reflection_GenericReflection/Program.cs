@@ -21,7 +21,7 @@
 
             foreach (var typeArgument in tp.GetGenericArguments())
             {
-                Console.WriteLine($"Type parameter:{typeArgument.FullName}");
+                Console.WriteLine($"Type argument:{typeArgument.Name}");
             }
         }
     }
