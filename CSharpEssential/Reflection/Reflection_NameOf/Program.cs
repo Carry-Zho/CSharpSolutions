@@ -1,4 +1,13 @@
-﻿namespace Reflection_NameOf
+﻿using System;
+using System.ComponentModel;
+using System.Reflection;
+
+[assembly: Description("Reflection_NameOf")]
+[assembly: AssemblyVersion("1.0.0.0")]
+
+[module: Description("Reflection_NameOf")]
+
+namespace Reflection_NameOf
 {
     internal class Program
     {
