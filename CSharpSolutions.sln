@@ -192,9 +192,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection_SerializableAttribute", "CSharpEssential\Reflection\Reflection_SerializableAttribute\Reflection_SerializableAttribute.csproj", "{6435DFCB-28D1-4415-9A57-06A14FFEBA13}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E72C558C-230B-4C26-B772-DC2DAB3D8B2F}"
-	ProjectSection(SolutionItems) = preProject
-		.editorconfig = .editorconfig
-	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections_DataTable_YM_GroupBy", "CSharpEssential\Collections\Collections_DataTable_YM_GroupBy\Collections_DataTable_YM_GroupBy.csproj", "{B698174D-4C8A-45AD-8433-7314B4C0F7A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -538,6 +537,10 @@ Global
 		{6435DFCB-28D1-4415-9A57-06A14FFEBA13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6435DFCB-28D1-4415-9A57-06A14FFEBA13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6435DFCB-28D1-4415-9A57-06A14FFEBA13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B698174D-4C8A-45AD-8433-7314B4C0F7A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B698174D-4C8A-45AD-8433-7314B4C0F7A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B698174D-4C8A-45AD-8433-7314B4C0F7A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B698174D-4C8A-45AD-8433-7314B4C0F7A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -634,6 +637,7 @@ Global
 		{D4BB8D91-C5EC-4F5D-B868-563430FDE910} = {0133BD2B-21EE-491F-B8C0-973ACF4B3FA9}
 		{77CD34D1-E30E-4EC1-B7AA-AB81CBC0ADEE} = {0133BD2B-21EE-491F-B8C0-973ACF4B3FA9}
 		{6435DFCB-28D1-4415-9A57-06A14FFEBA13} = {0133BD2B-21EE-491F-B8C0-973ACF4B3FA9}
+		{B698174D-4C8A-45AD-8433-7314B4C0F7A8} = {7851ADA1-994D-4C71-8325-96C9B0F88122}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5CDAD7D8-E007-4C22-9283-835978ACCBB6}
